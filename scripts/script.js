@@ -15,7 +15,7 @@ else if (answer === ("yes")||("Yes")) {
         break;
         }
         else if (userHP <= 0) {
-            console.log(`${name} has lost the game.`)
+            console.log(`Grant proved to be too mighty, ${name} has lost the game.`)
             break;
         }
         else if (bossHP <= 0 && userHP != 0) {
