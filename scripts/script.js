@@ -7,6 +7,9 @@ let answer = prompt("Do you want to play?");
 if (answer === ("no")) {
     console.log("Alright. We will play another time"); 
 }
+else if (answer != ("yes")||("Yes")||("no")||("No")) {
+    console.log("That is not a valid answer, please reload the page.");
+}
 else if (answer === ("yes")||("Yes")) {
     let name = prompt("What is your name?");
     while (name === name) {
@@ -30,7 +33,4 @@ else if (answer === ("yes")||("Yes")) {
             console.log(`Grant's health is ${bossHP}.`); 
         }
     }
-} 
-else {
-    console.log("That is not a valid answer, please reload the page.");
 }
